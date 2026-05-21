@@ -1,0 +1,31 @@
+{
+  "name": "festival_musica",
+  "version": "1.0.0",
+  "description": "Aprendiendo SASS y NPM",
+  "keywords": [
+    "SASS",
+    "NPM",
+    "Gulp"
+  ],
+  "homepage": "https://github.com/JuanG0507/festival_musica#readme",
+  "bugs": {
+    "url": "https://github.com/JuanG0507/festival_musica/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanG0507/festival_musica.git"
+  },
+  "license": "ISC",
+  "author": "Juan Jose Gutierrez",
+  "types": "module",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --wa src/scss:build/css",
+    "dev": "gulp"
+  },
+  "devDependencies": {
+    "gulp": "^5.0.1",
+    "gulp-sass": "^6.0.1",
+    "sass": "^1.99.0"
+  }
+}
